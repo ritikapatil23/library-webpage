@@ -1,0 +1,319 @@
+
+<!DOCTYPE html> 
+<html> 
+      
+<head> 
+	
+    <title> 
+        Books 
+    </title> 
+      
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="lib_style.css"> 
+
+
+</head> 
+  
+<body> 
+      
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_books()" type="text"
+        name="search" placeholder="Search Bookss.."> 
+      
+    <!-- ordered list -->
+    <ol id='list'> 
+        <li class="books">Alborough, Jez: Where’s My Teddy?</li> 
+        <li class="books">Asch, Frank: Happy Birthday, Moon</li> 
+        <li class="books">Aranton, John-Ruben M., Jr.: What Treat Can Rubebooksn Eat?</li> 
+        <li class="books">Bang, Molly: Ten, Nine, Eight</li> 
+        <li class="books">Barton, Byron: The Three Bears</li> 
+        <li class="books">Campbell, Rod:Dear Zoo</li> 
+        <li class="books">Fox, Mem: Where is the Green Sheep?</li> 
+        <li class="books">Whale</li> 
+        <li class="books">Emberley,Ed: Go Away, Big Green Monster!</li> 
+        <li class="books">Burroughs, Caleb: The Moon Sees You & Me</li> 
+        <li class="books">Degen, Bruce: Jamberry</li> 
+        <li class="books">Burroughs, Caleb: The Moon Sees You & Me</li>
+        <li class="books">Cannon, Janell: Stellaluna</li>
+        <li class="books">Capucilli, Alyssa Satin: Biscuit Loves the Library</li>
+        <li class="books">Carle, Eric: The Very Hungry Caterpillar</li>
+        <li class="books">Christelow, Eileen: Five Little Monkeys Jumping on the Bed</li>
+        <li class="books">Chung, Arree: Ninja!</li>
+        <li class="books">Cronin, Doreen: Click, Clack, Moo: Cows that Type</li>
+        <li class="books">Day, Alexandra: Good Dog, Carl</li>
+        <li class="books">Degen, Bruce: Jamberry</li>
+        <li class="books">Dorros, Arthur: Abuela</li>
+        <li class="books">Eastman, P.D.: Are You My Mother?</li>
+        <li class="books">Ehlert, Lois: Feathers for Lunch</li>
+        <li class="books">Emberley,Ed: Go Away, Big Green Monster!</li>
+        <li class="books">alconer, Ian: Olivia</li>
+        <li class="books">Feiffer, Jules: Bark, George</li>
+        <li class="books">Flack, Marjorie: Ask Mr. Bear</li>
+        <li class="books">Fleming, Denise:Mama Cat Has Three Kittens</li>
+        <li class="books">Fox, Mem: Where is the Green Sheep?Freeman, Don: Corduroy</li>
+        <li class="books">Freeman, Don: Corduroy</li>
+        <li class="books">Hill, Eric: Where’s Spo</li>
+        <li class="books">Hoban, Russell: Bread and Jam for Frances</li>
+        <li class="books">Hoban, Tana: Is it Red? Is it Yellow? Is it Blue? An Adventure in Color</li>
+        <li class="books">Holabird, Katherine: Angelina Ballerina </li>
+        <li class="books">Hoffman, Mary: Amazing Grace</li>
+        <li class="books">Hutchins, Pat: Rosie’s Walk</li>
+        <li class="books">Jenkins, Steve: What do you do with a tail like this?</li>
+        <li class="books">Johnson, Crockett: Harold and the Purple Crayon</li>
+        <li class="books">Juster, Norton: The Hello, Goodbye Window</li>
+        <li class="books">Kasza, Keiko: The Wolf’s Chicken Stew</li>
+        <li class="books">Keats, Ezra Jack: The Snowy Day</li>
+        <li class="books">Kennedy, Jimmy: The Teddy Bears’ Picnic</li>
+        <li class="books">Kent, Jack: The Caterpillar and the Polliwog</li>
+        <li class="books">Kimmel, Eric: Anansi and the Moss-Covered Rock</li>
+        <li class="books">Kraus, Robert: Whose Mouse are You?</li>
+        <li class="books">Kraus, Ruth: The Carrot Seed</li>
+        <li class="books">Krosoczka, Jarrett:Baghead</li>
+        <li class="books">Landers, Ace: I Am An Ice Cream Truck</li>
+        <li class="books">Leaf, Munro: The Story of Ferdinand </li>
+        <li class="books">Lester, Mike: A is for Salad </li>
+        <li class="books">Lionni, Leo:Little Blue and Little Yellow</li>
+        <li class="books">Lobel, Anita: On Market Street</li>
+        <li class="books">Lobel, Arnold: Frog and Toad Are Friends</li>
+        <li class="books">London, Jonathan: Froggy Gets Dressed</li>
+        <li class="books">Martin, Bill: Brown Bear, Brown Bear, What Do You See?</li>
+        <li class="books">Martin, Bill: Chicka Chicka Boom Boom</li>
+        <li class="books">McBratney, Sam: Guess How Much I Love You</li>
+        <li class="books">McCloskey, Robert: Make Way for Ducklings</li>
+        <li class="books">McFarland, Lyn: WidgetMcKissack, Pat: Goin’ Someplace Special</li>
+        <li class="books">McKissack, Pat: Goin’ Someplace Special</li>
+        <li class="books">cMullan, Kate and Jim: I Stink!</li>
+        <li class="books">McPhail, David: Pigs Aplenty, Pigs Galore</li>
+        <li class="books">Meddaugh, Susan: Martha Speaks</li>
+        <li class="books">Meltzer, Brad: I am Abraham Lincoln</li>
+        <li class="books">Are you actually reading this?</li>
+        <li class="books">Munari, Bruno: Bruno Munari’s AB</li>
+        <li class="books">Hill, Eric: Where’s Spo</li>
+        <li class="books">Nelson-Schmidt, Michelle: Jonathan James and the Whatif Monster</li>
+        <li class="books">Noble, Trinka: The Day Jimmy’s Boa Ate the Wash</li>
+        <li class="books">Numeroff, Laura: If You Give a Mouse a Cookie</li>
+        <li class="books">O’Connor, Jane: Fancy Nancy</li>
+        <li class="books">v</li>
+        <li class="books">v</li>
+        <li class="books">Pinkney, Sandra: Shades of Black </li>
+        <li class="books">Hill, Eric: Where’s Spo</li>
+        <li class="books">How can you still read this?</li>
+        <li class="books">trhtyhtrhgrtgg grthr</li>
+        <li class="books">cdzrerhtyb</li>
+        <li class="books">Pinkney, Sandra: Shades of Black</li>
+        <li class="books">Piper, Watty: The Little Engine that Could</li>
+        <li class="books">Wong, Janet: Buzz</li>
+        <li class="books">ha ye bhi padle</li>
+        <li class="books">unregistered</li>
+        <li class="books">I have lost my count</li>
+        <li class="books">Hill, Eric: Where’s Spo</li>
+        <li class="books">Piper, Watty: The Little Engine that Could</li>
+        <li class="books">Potter, Beatrix: The Tale of Peter Rabbit </li>
+        <li class="books">Rathmann, Peggy: Good Night, Gorilla </li>
+        <li class="books">Reisman, Dave: Cows Can’t Jump
+Rey, H.A.: Curious George</li>
+        <li class="books"> 	Rey, H.A.: Curious George</li>
+        <li class="books">Rohman, Eric: My Friend Rabbit</li>
+        <li class="books">Rosen, Michael: We’re Going on a Bear Hunt</li>
+        <li class="books">Rossetti-Shustak, Bernadette: I Love You Through and Through</li>
+        <li class="books">uifvhrbv hstb   hate ujr</li>
+        <li class="books"> Rylant, Cynthia: The Relatives Came</li>
+        <li class="books">Say, Allen: Grandfather’s Journey</li>
+        <li class="books">Scarry, Richard: Cars and Trucks and Things that Go</li>
+        <li class="books">Rathmann, Peggy: Good Night, Gorilla </li>
+        <li class="books">Seeger, Laura Vaccaro: First the Egg</li>
+        <li class="books">Hill, Eric: Where’s Spo</li>
+        <li class="books">Sendak, Maurice: Where the Wild Things Are</li>
+        <li class="books">Seeger, Laura Vaccaro: First the Egg</li>
+        <li class="books">Seuss, Dr.: Green Eggs and Ham</li>
+        <li class="books">Seuss, Dr.: The Cat in the Hat</li>
+        <li class="books">Shannon, David: Duck on a Bike</li>
+        <li class="books">Seuss, Dr.: The Cat in the Hat</li>
+        <li class="books">Wong, Janet:</li>
+        <li class="books">Bas kar bhai</li>
+        <li class="books">Shaw, Charles: It Looked Like Spilt Milk </li>
+        <li class="books">Simmons, Jane: Come Along Daisy</li>
+        <li class="books">Simont, Marc: The Stray Dog</li>
+        <li class="books">Sis, Peter: Fire Truc</li>
+        <li class="books">Slobodkina, Esphyr: Caps for Sale</li>
+        <li class="books">Taback, Simms: There Was an Old Lady Who Swallowed a Fly</li>
+        <li class="books">Walter, Virginia: Hi, Pizza Man!</li>
+        <li class="books">Wells, Rosemary: Noisy Nora </li>
+        <li class="books">Westcott, Nadine: The Lady with the Alligator Purse</li>
+        <li class="books">Wiesner, David: The Three Pigs</li>
+        <li class="books">Willems, Mo: Don’t Let the Pigeon Drive the Bus</li>
+        <li class="books">Wong, Janet: Buzz</li>
+        <li class="books">Wood, Audrey: The Napping House</li>
+        <li class="books">Yolen, Jane: How do Dinosaurs Say Goodnight?</li>
+        <li class="books">Yolen, Jane: Owl Moon</li>
+        <li class="books">oung, Ed:Seven Blind Mice</li>
+        <li class="books">Zimmerman, Andrea: Trashy Town</li>
+        <li class="books">Zimmerman, Andrea: Trashy Town</li>
+        <li class="books">Zion, Gene: Harry, The Dirty Dog</li>
+        <li class="books">Zschock, Martha Day: Hello, America!</li>
+        <li class="books">Harry Potter and the Sorcerer's Stone (Harry Potter, #1)</li>
+        <li class="books">The Lord of the Rings (The Lord of the Rings</li>
+        <li class="books">A Game of Thrones (A Song of Ice and Fire, #1)</li>
+        <li class="books">The Name of the Wind (The Kingkiller Chronicle, #1)</li>
+        <li class="books">The Chronicles of Narnia (Chronicles of Narnia, #1-7)</li>
+        <li class="books">https://www.goodreads.com/book/show/28187.The_Lightning_Thief</li>
+        <li class="books">https://www.goodreads.com/book/show/68428.The_Final_Empire</li>
+        <li class="books">https://www.goodreads.com/book/show/228665.The_Eye_of_the_World</li>
+        <li class="books">https://www.goodreads.com/book/show/228665.The_Eye_of_the_World</li>
+        <li class="books">https://www.goodreads.com/book/show/228665.The_Eye_of_the_World</li>
+        <li class="books">I missed this part</li>
+        <li class="books">Congrats,you made it</li>
+        <li class="books">It is 01:52 am</li>
+        <li class="books">Water from my eyes</li>
+        <li class="books">I am tired</li>
+        <li class="books">Hoban, Russell: Bread and Jam for Frances</li>
+        <li class="books">His_Dark_Materials</li>
+        <li class="books">.His_Dark_Materials</li>
+        <li class="books">-the-way-of-kings</li>
+        <li class="books">Eragon_Eldest_Brisingr</li>
+        <li class="books">The Way of Kings (The Stormlight Archive, #1)</li>
+        <li class="books">Eragon, Eldest & Brisingr (Inheritance, #1-3)</li>
+        <li class="books">The Gunslinger
+by Stephen King</li>
+        <li class="books">The Color of Magic (Discworld, #1; Rincewind, #1)</li>
+        <li class="books">Wizard's First Rule (Sword of Truth, #1)
+by Terry Goodkind</li>
+        <li class="books">The Belgariad, Vol. 1: Pawn of Prophecy / Queen of Sorcery / Magician's Gambit (The Belgariad, #1-3)
+by David Eddings</li>
+        <li class="books">Artemis Fowl (Artemis Fowl, #1)
+by Eoin Colfer</li>
+        <li class="books">The Way of Shadows (Night Angel, #1)
+by Brent Weeks (Goodreads Author)</li>
+        <li class="books">	A Wizard of Earthsea (Earthsea Cycle, #1)</li>
+        <li class="books">	A Wizard of Earthsea (Earthsea Cycle, #1)</li>
+        <li class="books">Sabriel (Abhorsen, #1)
+by Garth Nix</li>
+        <li class="books">	The Lies of Locke Lamora (Gentleman Bastard, #1)
+by Scott Lynch (Goodreads Author)</li>
+        <li class="books">	The Blade Itself (The First Law, #1)</li>
+        <li class="books">	Inkheart (Inkworld, #1)</li>
+        <li class="books">	Gardens of the Moon (Malazan Book of the Fallen, #1)</li>
+        <li class="books">	Dragonflight (Dragonriders of Pern, #1</li>
+        <li class="books">The Mists of Avalon (Avalon, #1)</li>
+        <li class="books">The Amulet of Samarkand (Bartimaeus, #1)</li>
+        <li class="books">	The Sword of Shannara Trilogy (Shannara, #1-3)</li>
+        <li class="books">Graceling (Graceling Realm, #1)</li>
+        <li class="books">Graceling (Graceling Realm, #1)</li>
+        <li class="books">Kushiel's Dart (Phèdre's Trilogy, #1)</li>
+        <li class="books">Redwall (Redwall, #1)</li>
+        <li class="books">	Dragonlance Chronicles (Dragonlance #1-3)</li>
+        <li class="books">Furies of Calderon (Codex Alera, #1)</li>
+        <li class="books">The Lost Hero (The Heroes of Olympus, #1)
+by Rick Riordan (Goodreads Author)</li>
+        <li class="books">The Great Book of Amber (The Chronicles of Amber, #1-10)
+by Roger Zelazny</li>
+        <li class="books">The Dragonbone Chair (Memory, Sorrow, and Thorn, #1)
+by Tad Williams (Goodreads Author)</li>
+        <li class="books">Poison Study (Study, #1)
+by Maria V. Snyder</li>
+        <li class="books">	The Dark Is Rising Sequence (The Dark is Rising, #1-5)
+by Susan Cooper (Goodreads Author)</li>
+        <li class="books">Daughter of the Forest (Sevenwaters, #1)
+by Juliet Marillier</li>
+        <li class="books">	Howl's Moving Castle (Howl's Moving Castle, #1)
+by Diana Wynne Jones</li>
+        <li class="books">	The Magicians' Guild (Black Magician Trilogy, #1)
+by Trudi Canavan</li>
+        <li class="books">Landers, Ace: I Am An Ice Cream Truck</li>
+        <li class="books">Leaf, Munro: The Story of Ferdinand </li>
+        <li class="books">Lester, Mike: A is for Salad </li>
+        <li class="books">Lionni, Leo:Little Blue and Little Yellow</li>
+        <li class="books">Lobel, Anita: On Market Street</li>
+        <li class="books">Lobel, Arnold: Frog and Toad Are Friends</li>
+        <li class="books">London, Jonathan: Froggy Gets Dressed</li>
+        <li class="books">Martin, Bill: Brown Bear, Brown Bear, What Do You See?</li>
+        <li class="books">Martin, Bill: Chicka Chicka Boom Boom</li>
+        <li class="books">McBratney, Sam: Guess How Much I Love You</li>
+        <li class="books">McCloskey, Robert: Make Way for Ducklings</li>
+        <li class="books">McFarland, Lyn: WidgetMcKissack, Pat: Goin’ Someplace Special</li>
+        <li class="books">Alborough, Jez: Where’s My Teddy?</li> 
+        <li class="books">Asch, Frank: Happy Birthday, Moon</li> 
+        <li class="books">Aranton, John-Ruben M., Jr.: What Treat Can Rubebooksn Eat?</li> 
+        <li class="books">Bang, Molly: Ten, Nine, Eight</li> 
+        <li class="books">Barton, Byron: The Three Bears</li> 
+        <li class="books">Campbell, Rod:Dear Zoo</li> 
+        <li class="books">Fox, Mem: Where is the Green Sheep?</li
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books">Daughter of the Forest (Sevenwaters, #1)
+by Juliet Marillier</li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books"></li>
+        <li class="books">Daughter of the Forest (Sevenwaters, #1)
+by Juliet Marillier</li>
+        <li class="books">The Wonderful Wizard of Oz (Oz, #1)
+by L. Frank Baum</li>
+        <li class="books">Wild Magic (Immortals, #1)
+by Tamora Pierce (Goodreads Author)</li>
+        <li class="books">Ship of Magic (Liveship Traders, #1)</li>
+        <li class="books">The Chronicles of Thomas Covenant, the Unbeliever (The Chronicles of Thomas Covenant the Unbeliever, #1-3)
+by Stephen R. Donaldson</li>
+        <li class="books">The Chronicles of Thomas Covenant, the Unbeliever (The Chronicles of Thomas Covenant the Unbeliever, #1-3)
+by Stephen R. Donaldson</li>
+        <li class="books">The Chronicles of Prydain (The Chronicles of Prydain #1-5)
+by Lloyd Alexander</li>
+        <li class="books">The Time Quartet Box Set (Time Quartet, #1-4)
+by Madeleine L'Engle</li>
+        <li class="books">The Black Jewels Trilogy: Daughter of the Blood, Heir to the Shadows, Queen of the Darkness (The Black Jewels, #1-3)
+by Anne Bisho</li>
+        <li class="books">The Thief (The Queen's Thief, #1)</li>
+        <li class="books">The Angel Experiment (Maximum Ride, #1)</li>
+        <li class="books">His Majesty's Dragon (Temeraire, #1)</li>
+        <li class="books">The Fionavar Tapestry (The Fionavar Tapestry #1-3)
+by Guy Gavriel Kay</li>
+        <li class="books">The Once and Future King (The Once and Future King, #1-4)
+by T.H. White</li>
+        <li class="books">The Enchanted Forest Chronicles (The Enchanted Forest Chronicles, #1-4)
+by Patricia C. Wrede </li>
+        <li class="books">The Last Herald-Mage (Valdemar: The Last Herald-Mage, #1-3)
+by Mercedes Lackey</li>
+        <li class="books">Daggerspell (Deverry, #1)
+by Katharine Kerr (Goodreads Author)</li>
+        <li class="books"></li>
+        <li class="books">Septimus Heap (Septimus Heap, #1-4)</li>
+        <li class="books">The Chronicles of Chrestomanci, Volume 1 (Chrestomanci, #1-2)
+by Diana Wynne Jones</li>
+        <li class="books">The Scions of Shannara (Heritage of Shannara, #1)
+by Terry Brooks </li>
+        <li class="books">	First Test (Protector of the Small, #1)
+by Tamora Pierce</li>
+        <li class="books">Thank you</li>
+        <li class="books">	The Magicians' Guild (Black Magician Trilogy, #1)
+by Trudi Canavan</li>
+        <li class="books">Hill, Eric: Where’s Spo</li>
+        <li class="books">Green Rider (Green Rider, #1)
+by Kristen Britain</li>
+        <li class="books">	Howl's Moving Castle (Howl's Moving Castle, #1)
+by Diana Wynne Jones</li>
+        <li class="books">Daughter of the Forest (Sevenwaters, #1)
+by Juliet Marillier</li>
+        
+        
+    </ol> 
+    <script src="search_book.js"></script> 
+</body> 
+  
+</html>

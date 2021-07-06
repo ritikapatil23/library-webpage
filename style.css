@@ -1,0 +1,148 @@
+
+.navbar{
+	background: black;
+	color: #fff;
+	padding: 15px;
+	font-family: sans-serif;
+}
+
+.navbar img{
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+
+.menu-right{
+	text-align: right;
+}
+
+a{
+	display: block;
+	padding: 0 30px;
+	color: white;
+	text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+	margin: 20px;
+	list-style: none;
+}
+
+.image{
+	float: right;
+
+}
+
+h1{
+	font-family: arial;
+	font-size: 60px;
+	font-style: bold;
+	text-indent: 120px;
+	padding-top: 20px;
+}
+h3{
+	font-family: "Times new roman";
+	font size: 100px;
+	font-style: italic;
+	color: blue;
+	text-indent: 350px;
+}
+
+
+
+/* Login form css */
+    body{
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    width: 100%;
+    background-color: #e6e6fae8;
+    }
+     
+    input[type=text], input[type=password]{
+    width:20%;
+    padding:7px 10px;
+    margin: 10px 0;
+    display:inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+     
+    button{
+    background-color:#4CAF50;
+    width: 10%;
+    padding: 9px 5px;
+    margin:10px 0px 0px 35px;
+    cursor:pointer;
+    border:none;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    }
+     
+    button:hover{
+    opacity:0.8;
+    }
+     
+    #un,#ps{
+    font-family:'Lato', sans-serif;
+    color: gray;
+    }
+ 
+ 
+    #container{
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width:600;
+        height: 300px;
+        text-align: center;
+    }
+     
+    /* Login form css */
+    
+/*signuo form css*/
+   
+ 
+input[type=text],[type=password],[type=number]{
+width: 20%;
+margin: 8px 0;
+padding: 7px 10px;
+display: inline-block;
+border:1px solid #ccc;
+box-sizing: border-box;
+}
+ 
+button{
+background-color:#4CAF50;
+width: 10%;
+padding: 9px 5px;
+margin:5px 0;
+cursor:pointer;
+border:none;
+color:black;
+}
+ 
+button:hover{
+opacity:0.8;
+}
+ 
+#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+font-family:'Lato', sans-serif;
+color: gray;
+}
+ 
+#em{
+margin-left:30px;
+}
+
+.textbox{
+    font-family:"Time new roman";
+    font-size: 20px;
+    font-weight: bold;
+}
+
